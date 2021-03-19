@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTopping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Topping>
+    <Name>Mozzarella</Name>
+    <Price>0.00</Price>
+  </Topping>
+  <Topping>
+    <Name>Cheddar</Name>
+    <Price>0.60</Price>
+  </Topping>
+  <Topping>
+    <Name>Pepperoni</Name>
+    <Price>0.80</Price>
+  </Topping>
+  <Topping>
+    <Name>Bacon</Name>
+    <Price>0.80</Price>
+  </Topping>
+  <Topping>
+    <Name>Chicken</Name>
+    <Price>0.80</Price>
+  </Topping>
+  <Topping>
+    <Name>Ham</Name>
+    <Price>0.80</Price>
+  </Topping>
+  <Topping>
+    <Name>Sausage</Name>
+    <Price>0.80</Price>
+  </Topping>
+  <Topping>
+    <Name>Pineapple</Name>
+    <Price>0.60</Price>
+  </Topping>
+  <Topping>
+    <Name>Mushrooms</Name>
+    <Price>0.60</Price>
+  </Topping>
+  <Topping>
+    <Name>Black Olives</Name>
+    <Price>0.60</Price>
+  </Topping>
+  <Topping>
+    <Name>Red Onions</Name>
+    <Price>0.60</Price>
+  </Topping>
+  <Topping>
+    <Name>Bell Peppers</Name>
+    <Price>0.60</Price>
+  </Topping>
+  <Topping>
+    <Name>Spinach</Name>
+    <Price>0.60</Price>
+  </Topping>
+</ArrayOfTopping>

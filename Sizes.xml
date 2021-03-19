@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSize xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>
+    <Name>Personal</Name>
+    <Price>5.00</Price>
+  </Size>
+  <Size>
+    <Name>Medium</Name>
+    <Price>9.00</Price>
+  </Size>
+  <Size>
+    <Name>Large</Name>
+    <Price>12.00</Price>
+  </Size>
+  <Size>
+    <Name>Extra Large</Name>
+    <Price>15.00</Price>
+  </Size>
+</ArrayOfSize>

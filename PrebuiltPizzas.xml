@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPrebuiltPizza xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PrebuiltPizza>
+    <ID>1000</ID>
+    <Name>Cheese Pizza</Name>
+    <Crust>
+      <Name>Hand Tossed</Name>
+      <Price>0.00</Price>
+    </Crust>
+    <Size>
+      <Name>Medium</Name>
+      <Price>9.00</Price>
+    </Size>
+    <Toppings>
+      <Topping>
+        <Name>Mozzarella</Name>
+        <Price>0.00</Price>
+      </Topping>
+    </Toppings>
+    <_prebuiltPrice>0.00</_prebuiltPrice>
+  </PrebuiltPizza>
+  <PrebuiltPizza>
+    <ID>1001</ID>
+    <Name>Pepperoni Pizza</Name>
+    <Crust>
+      <Name>Hand Tossed</Name>
+      <Price>0.00</Price>
+    </Crust>
+    <Size>
+      <Name>Medium</Name>
+      <Price>9.00</Price>
+    </Size>
+    <Toppings>
+      <Topping>
+        <Name>Mozzarella</Name>
+        <Price>0.00</Price>
+      </Topping>
+      <Topping>
+        <Name>Pepperoni</Name>
+        <Price>0.80</Price>
+      </Topping>
+    </Toppings>
+    <_prebuiltPrice>0.50</_prebuiltPrice>
+  </PrebuiltPizza>
+  <PrebuiltPizza>
+    <ID>1002</ID>
+    <Name>Supreme Pizza</Name>
+    <Crust>
+      <Name>Hand Tossed</Name>
+      <Price>0.00</Price>
+    </Crust>
+    <Size>
+      <Name>Medium</Name>
+      <Price>9.00</Price>
+    </Size>
+    <Toppings>
+      <Topping>
+        <Name>Mozzarella</Name>
+        <Price>0.00</Price>
+      </Topping>
+      <Topping>
+        <Name>Pepperoni</Name>
+        <Price>0.80</Price>
+      </Topping>
+      <Topping>
+        <Name>Sausage</Name>
+        <Price>0.80</Price>
+      </Topping>
+      <Topping>
+        <Name>Mushrooms</Name>
+        <Price>0.60</Price>
+      </Topping>
+      <Topping>
+        <Name>Red Onions</Name>
+        <Price>0.60</Price>
+      </Topping>
+      <Topping>
+        <Name>Bell Peppers</Name>
+        <Price>0.60</Price>
+      </Topping>
+    </Toppings>
+    <_prebuiltPrice>2.00</_prebuiltPrice>
+  </PrebuiltPizza>
+  <PrebuiltPizza>
+    <ID>1003</ID>
+    <Name>Meat Lovers Pizza</Name>
+    <Crust>
+      <Name>Hand Tossed</Name>
+      <Price>0.00</Price>
+    </Crust>
+    <Size>
+      <Name>Medium</Name>
+      <Price>9.00</Price>
+    </Size>
+    <Toppings>
+      <Topping>
+        <Name>Mozzarella</Name>
+        <Price>0.00</Price>
+      </Topping>
+      <Topping>
+        <Name>Pepperoni</Name>
+        <Price>0.80</Price>
+      </Topping>
+      <Topping>
+        <Name>Bacon</Name>
+        <Price>0.80</Price>
+      </Topping>
+      <Topping>
+        <Name>Ham</Name>
+        <Price>0.80</Price>
+      </Topping>
+      <Topping>
+        <Name>Sausage</Name>
+        <Price>0.80</Price>
+      </Topping>
+    </Toppings>
+    <_prebuiltPrice>2.00</_prebuiltPrice>
+  </PrebuiltPizza>
+  <PrebuiltPizza>
+    <ID>1004</ID>
+    <Name>Vegetarian Pizza</Name>
+    <Crust>
+      <Name>Hand Tossed</Name>
+      <Price>0.00</Price>
+    </Crust>
+    <Size>
+      <Name>Medium</Name>
+      <Price>9.00</Price>
+    </Size>
+    <Toppings>
+      <Topping>
+        <Name>Mozzarella</Name>
+        <Price>0.00</Price>
+      </Topping>
+      <Topping>
+        <Name>Mushrooms</Name>
+        <Price>0.60</Price>
+      </Topping>
+      <Topping>
+        <Name>Red Onions</Name>
+        <Price>0.60</Price>
+      </Topping>
+      <Topping>
+        <Name>Bell Peppers</Name>
+        <Price>0.60</Price>
+      </Topping>
+      <Topping>
+        <Name>Spinach</Name>
+        <Price>0.60</Price>
+      </Topping>
+    </Toppings>
+    <_prebuiltPrice>1.50</_prebuiltPrice>
+  </PrebuiltPizza>
+</ArrayOfPrebuiltPizza>

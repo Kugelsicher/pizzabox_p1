@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Store>
+    <_nextOrderID>10000</_nextOrderID>
+    <Name>Steve's Pizzeria</Name>
+    <Orders />
+  </Store>
+  <Store>
+    <_nextOrderID>10000</_nextOrderID>
+    <Name>Panucci's Pizza</Name>
+    <Orders />
+  </Store>
+</ArrayOfStore>
