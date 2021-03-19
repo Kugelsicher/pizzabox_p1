@@ -37,7 +37,7 @@ namespace PizzaBox.Client.Menus
             options.Add("");
             foreach (PrebuiltPizza prebuiltPizza in PizzaSingleton.Instance.PrebuiltPizzas)
             {
-                options.Add($"{prebuiltPizza.Name,-20} {prebuiltPizza.GetPrice(),-3:C2}");
+                options.Add($"{prebuiltPizza.Name,-20} {prebuiltPizza.Price,-3:C2}");
             }
             options.Add("Go Back");
 

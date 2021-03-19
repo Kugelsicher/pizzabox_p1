@@ -37,18 +37,18 @@ namespace PizzaBox.Client.Menus
             _customPizzaCount = Session.Instance.ViewingOrder.CustomPizzas.Count;
             foreach (PrebuiltPizza pizza in Session.Instance.ViewingOrder.PrebuiltPizzas)
             {
-                Console.WriteLine($"{pizza.Size} {pizza.Name:20} {pizza.Crust} {pizza.GetPrice(),-3:C2}");
-                totalPrice += pizza.GetPrice();
+                Console.WriteLine(pizza.ToString());
+                totalPrice += pizza.Price;
             }
             foreach (CustomPizza pizza in Session.Instance.ViewingOrder.CustomPizzas)
             {
-                string pizzaDescription = $"{pizza.Size} {pizza.Crust} {pizza.GetPrice(),-3:C2} ";
+                string pizzaDescription = $"{pizza.Size} {pizza.Crust} {pizza.Price,-3:C2} ";
                 foreach (Topping topping in pizza.Toppings)
                 {
                     pizzaDescription += topping.Name + ", ";
                 }
                 Console.WriteLine(pizzaDescription);
-                totalPrice += pizza.GetPrice();
+                totalPrice += pizza.Price;
             }
             inlineInformation = $"Total: {totalPrice,-3:C2}";
             options.Add("");

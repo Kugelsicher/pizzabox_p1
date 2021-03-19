@@ -22,14 +22,17 @@ namespace PizzaBox.Domain.Models
             ID = PizzaSingleton.Instance.GetUniquePizzaID();
         }
 
-        public override decimal GetPrice()
+        public override decimal Price
         {
-            decimal price = Crust.Price + Size.Price;
-            foreach(Topping topping in Toppings)
+            get
             {
-                price += topping.Price;
+                decimal price = Crust.Price + Size.Price;
+                foreach(Topping topping in Toppings)
+                {
+                    price += topping.Price;
+                }
+                return price;
             }
-            return price;
         }
 
         public override void AddTopping(Topping topping)

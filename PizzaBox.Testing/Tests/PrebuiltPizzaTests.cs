@@ -14,7 +14,7 @@ namespace PizzaBox.Testing.Tests
             var expected = prebuiltPrice + 5m;
             var pizza = new PrebuiltPizza("Personal Plain", "Hand Tossed", "Personal", new List<string>(), prebuiltPrice, 1492);
 
-            var actual = pizza.GetPrice();
+            var actual = pizza.Price;
 
             Assert.Equal(expected, actual);
         }
@@ -26,7 +26,7 @@ namespace PizzaBox.Testing.Tests
             var expected = prebuiltPrice + 9m;
             var pizza = new PrebuiltPizza("Medium Plain", "Hand Tossed", "Medium", new List<string>(), prebuiltPrice, 4125);
 
-            var actual = pizza.GetPrice();
+            var actual = pizza.Price;
 
             Assert.Equal(expected, actual);
         }
@@ -37,7 +37,7 @@ namespace PizzaBox.Testing.Tests
             var expected = prebuiltPrice + 12m;
             var pizza = new PrebuiltPizza("Personal Plain", "Hand Tossed", "Personal", new List<string>(), prebuiltPrice, 8354);
 
-            var actual = pizza.GetPrice();
+            var actual = pizza.Price;
 
             Assert.Equal(expected, actual);
         }
@@ -48,7 +48,7 @@ namespace PizzaBox.Testing.Tests
             var expected = prebuiltPrice + 15m;
             var pizza = new PrebuiltPizza("Personal Plain", "Hand Tossed", "Personal", new List<string>(), prebuiltPrice, 1497522);
 
-            var actual = pizza.GetPrice();
+            var actual = pizza.Price;
 
             Assert.Equal(expected, actual);
         }
@@ -59,7 +59,7 @@ namespace PizzaBox.Testing.Tests
             var expected = prebuiltPrice + 5m;
             var pizza = new PrebuiltPizza("Personal Plain", "Hand Tossed", "Personal", new List<string>(), prebuiltPrice, 73857);
 
-            var actual = pizza.GetPrice();
+            var actual = pizza.Price;
 
             Assert.Equal(expected, actual);
         }

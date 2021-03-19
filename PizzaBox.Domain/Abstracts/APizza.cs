@@ -4,10 +4,6 @@ using PizzaBox.Domain.Models;
 
 namespace PizzaBox.Domain.Abstracts
 {
-    /// <summary>
-    /// Referenced <https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/how-to-define-value-equality-for-a-type>
-    /// while implementing the methods of IEquatable
-    /// </summary>
     public abstract class APizza
     {
         public int ID;
@@ -15,6 +11,7 @@ namespace PizzaBox.Domain.Abstracts
         public Crust Crust { get; set; }
         public Size Size { get; set; }
         public List<Topping> Toppings { get; set; }
+        public abstract decimal Price { get; }
         
         public APizza()
         {
@@ -25,7 +22,9 @@ namespace PizzaBox.Domain.Abstracts
 
         public abstract void RemoveTopping(Topping topping);
 
-        public abstract Decimal GetPrice();
-
+        public override string ToString()
+        {
+            return $"{Size} {Name:20} {Crust} {Price,-3:C2}";
+        }
     }
 }

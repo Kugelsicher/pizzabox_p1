@@ -32,7 +32,7 @@ namespace PizzaBox.Client.Menus
             options.Clear();
             if(Session.Instance.OpenPizza.GetType() == typeof(PrebuiltPizza))
             {
-                inlineInformation = $"{Session.Instance.OpenPizza.Name} Price: {Session.Instance.OpenPizza.GetPrice(),-3:C2}";
+                inlineInformation = $"{Session.Instance.OpenPizza.Name} Price: {Session.Instance.OpenPizza.Price,-3:C2}";
                 options.Add("");
                 options.Add("Choose Crust\tCurrent: " + Session.Instance.OpenPizza.Crust.Name);
                 options.Add("Choose Size\t\tCurrent: " + Session.Instance.OpenPizza.Size.Name);

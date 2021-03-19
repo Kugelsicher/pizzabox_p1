@@ -80,9 +80,13 @@ namespace PizzaBox.Domain.Models
             ID = PizzaSingleton.Instance.GetUniquePizzaID();
         }
 
-        public override decimal GetPrice()
+        public override decimal Price
         {
-            return _prebuiltPrice + Crust.Price + Size.Price;
+            get
+            {
+                return _prebuiltPrice + Crust.Price + Size.Price;
+            }
+            
         }
 
         public override void AddTopping(Topping topping)
